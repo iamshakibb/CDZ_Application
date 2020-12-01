@@ -1,0 +1,93 @@
+@import "~bootstrap/scss/bootstrap";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// global style
+body {
+  font-family: "Inter", sans-serif;
+  color: #000 !important;
+  overflow-x: hidden;
+}
+
+a {
+  color: #fff;
+  text-decoration: none !important;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.mobile {
+  display: none;
+}
+
+.slick-slide {
+  padding: 0 20px;
+}
+
+// responsive design
+@media (max-width: 575.98px) {
+  .desktop {
+    display: none !important;
+  }
+  .mobile {
+    display: block !important;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .desktop {
+    display: none !important;
+  }
+  .mobile {
+    display: block !important;
+  }
+
+  .slick-slide {
+    padding: 0 30px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .slick-slide {
+    padding: 0 30px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  // slider styles
+  .slick-slide {
+    width: 680px !important;
+    margin: 0px 125px !important;
+    padding: 0 30px;
+  }
+
+  .slick-track {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  // slider styles
+  .slick-slide {
+    width: 800px !important;
+    margin: 0 155px !important;
+    padding: 0 30px;
+  }
+
+  .slick-track {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

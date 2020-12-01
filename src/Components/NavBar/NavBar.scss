@@ -1,0 +1,52 @@
+.NavBar {
+  padding-top: 0;
+  background-image: url("../../images/Rectangle\ 86.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 17vh;
+}
+
+.NavMenu {
+  a {
+    margin-right: 20px;
+    color: #fff !important;
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .NavBar {
+    margin-bottom: 70px;
+    padding: 40px;
+    position: relative;
+    z-index: 999;
+  }
+
+  .navbar-collapse {
+    background-color: navy;
+    padding: 40px;
+    margin-top: 10px;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .NavBar {
+    margin-bottom: 150px;
+    padding: 40px;
+    position: relative;
+    z-index: 999;
+  }
+
+  .navbar-collapse {
+    background-color: navy;
+    padding: 40px;
+    margin-top: 10px;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+}

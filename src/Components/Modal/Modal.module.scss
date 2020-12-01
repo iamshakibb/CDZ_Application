@@ -1,0 +1,136 @@
+.background {
+  height: 100vh;
+  background-color: #000;
+  position: fixed;
+  position: relative;
+}
+
+h2,
+h4 {
+  font-family: "Merriweather", serif;
+}
+
+// modal wrapper style
+.modalWrapper {
+  margin-top: 30px;
+  height: 80vh;
+  box-shadow: 0 5px 16px #00000033;
+  background-color: #fff;
+  color: #000;
+  position: relative;
+  z-index: 10;
+  border-radius: 10px;
+}
+
+//  modal context style
+.modalContent {
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.8;
+  color: #141414;
+}
+
+// modal img style
+.modalImg {
+  border-radius: 0 10px 10px 0;
+  width: 100%;
+  height: 80vh;
+  background-image: url(../../images/modalImg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+button {
+  text-align: right;
+  padding: 10px 24px;
+  background: #141414;
+  color: #fff;
+  border: none;
+}
+
+// close button style
+.closeModalButton {
+  cursor: pointer;
+  top: 20px;
+  left: 100%;
+  transform: translateX(-360%);
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  position: relative;
+  z-index: 10;
+}
+
+// submit button style
+button {
+  background-color: #000434;
+  color: #fff;
+  padding: 10px 50px;
+  border-radius: 6px;
+  border: none;
+}
+
+.btn {
+  border: none;
+  box-shadow: none !important;
+  &:hover,
+  &:focus {
+    background-color: #000434 !important;
+  }
+}
+
+.modalWrapper {
+  height: 90vh;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .modalWrapper {
+    height: 90vh;
+  }
+  .closeModalButton {
+    top: 5px;
+  }
+
+  .CongImg {
+    margin-top: 20px;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .modalWrapper {
+    height: 90vh;
+  }
+
+  .closeModalButton {
+    top: 5px;
+  }
+  .CongImg {
+    margin-top: 20px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .modalWrapper {
+    height: 90vh;
+  }
+  .modalImg {
+    height: 90vh;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .modalWrapper {
+    margin-top: 30px;
+  }
+}

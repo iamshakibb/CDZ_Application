@@ -1,0 +1,22 @@
+.services {
+  h2 {
+    font-family: "Merriweather", serif;
+    font-size: 38px;
+    line-height: 80%;
+    span {
+      color: #fb0043;
+    }
+  }
+}
+
+// service context style
+.servicesContext {
+  hr {
+    background-color: #fb0043;
+  }
+  h5 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 90%;
+  }
+}

@@ -1,0 +1,61 @@
+.heroSection {
+  height: 85vh;
+}
+
+// hero context style
+.heroContext {
+  color: #fff;
+  font-size: 62px;
+  line-height: 80%;
+  h1 {
+    font-family: "Merriweather", serif;
+    span {
+      color: #000;
+    }
+  }
+  p {
+    width: 90%;
+    font-size: 18px;
+    line-height: 140%;
+  }
+}
+
+// Btn style
+.HeroBtn {
+  background-color: #000434;
+  color: #fff;
+  padding: 10px 50px;
+  border-radius: 6px;
+  text-align: center;
+  border: none;
+}
+
+.btn {
+  border: none;
+  box-shadow: none !important;
+  &:hover,
+  &:focus {
+    background-color: #000434 !important;
+  }
+}
+
+// responsive design {
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .heroImg {
+    text-align: right;
+    img {
+      width: 70%;
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .heroImg {
+    text-align: right;
+    img {
+      width: 80%;
+    }
+  }
+}

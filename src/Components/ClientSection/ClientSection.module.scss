@@ -1,0 +1,96 @@
+.client {
+  h2 {
+    font-family: "Merriweather", serif;
+    margin-bottom: 100px;
+  }
+}
+
+// Client container style
+.clientFeedContainer {
+  margin-top: -200px !important;
+  background-image: url("../../images/Rectangle\ 103.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+
+  .container {
+    width: 700px !important;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+// Client Feedback style
+.clientFeedback {
+  background-color: #fff;
+  width: 70%;
+  height: 40vh;
+  padding: 20px;
+  box-shadow: 0px 7px 17px #00000059;
+  margin: 20px 10px;
+  border-radius: 10px;
+  position: relative;
+}
+
+// client img style
+.clientImg {
+  width: 100px;
+  height: 100px;
+
+  border-radius: 50%;
+  img {
+    padding: 2px;
+    border: 4px solid #fb0043;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+  }
+}
+
+// client Feedback Context style
+.clientFeedbackContext {
+  h4 {
+    font-family: "Merriweather", serif;
+    font-size: 26px;
+    line-height: 80%;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 180%;
+  }
+
+  .clientTitle {
+    padding-top: 5px;
+    color: gray;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 80%;
+  }
+}
+
+// responsive design
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .clientFeedback {
+    height: 80vh;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .clientFeedback {
+    height: 80vh;
+  }
+}
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) { ... }
