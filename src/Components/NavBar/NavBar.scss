@@ -4,6 +4,7 @@
   background-position: left;
   background-repeat: no-repeat;
   height: 17vh;
+  margin-top: -5px;
 }
 
 .NavMenu {
@@ -13,6 +14,10 @@
   }
 }
 
+.navbar-light .navbar-toggler {
+  background: #fb0043;
+}
+
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
   .NavBar {
@@ -20,6 +25,7 @@
     padding: 40px;
     position: relative;
     z-index: 999;
+    margin-top: -20px;
   }
 
   .navbar-collapse {
@@ -39,6 +45,7 @@
     padding: 40px;
     position: relative;
     z-index: 999;
+    margin-top: -20px;
   }
 
   .navbar-collapse {
