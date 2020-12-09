@@ -1,0 +1,21 @@
+.primaryBg {
+  background-image: url("../../images/Rectangle\ 101.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.introductionContainer {
+  background-image: url("../../images/Rectangle\ 100.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+  margin-top: -215px;
+  position: relative;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -18,7 +18,6 @@ export default function Contact() {
         </div>
         <div className={`col-md-6 col-6 ${classes.contactInfo}`}>
           <a href="tel:+44 (0) 01302246454">+44 (0) 01302246454</a>
-          <br />
           <a href="mailto:admin@cdz.co.uk">admin@cdz.co.uk</a>
         </div>
       </Row>

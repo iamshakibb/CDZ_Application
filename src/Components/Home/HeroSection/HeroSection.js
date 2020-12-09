@@ -1,15 +1,9 @@
 import React from "react";
 import { Button, Container, Row } from "react-bootstrap";
 import classes from "./HeroSection.module.scss";
-import HeroImage from "../../images/Ellipse 18.png";
-import { useDispatch, useSelector } from "react-redux";
-import { openModal } from "../../Redux/Actions/IsModalOpenAction";
+import HeroImage from "../../../images/Ellipse 18.png";
 
 export default function HeroSection() {
-  // fetching data from redux store
-  const IsModalOpen = useSelector((state) => state.IsModalOpen);
-
-  const dispatch = useDispatch();
   return (
     <div className={`d-flex align-items-center ${classes.heroSection}`}>
       <Container>
@@ -22,9 +16,7 @@ export default function HeroSection() {
               <p className="mt-4">
                 We are experts in building high performance cultures by challenging the status quo, creating lasting industry impact and being a catalyst for change.
               </p>
-              <Button onClick={() => dispatch(openModal())} className={`mt-3 ${classes.HeroBtn} ${classes.btn}`}>
-                Get in Touch
-              </Button>
+              <Button className={`mt-3 ${classes.HeroBtn} ${classes.btn}`}>Get in Touch</Button>
             </div>
           </div>
           <div className={`col-md-6 ${classes.heroImg}`}>

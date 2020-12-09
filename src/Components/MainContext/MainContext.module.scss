@@ -1,0 +1,28 @@
+.mainContextContainer {
+  color: #fff;
+  h1 {
+    font-family: "Merriweather", serif;
+  }
+  p {
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 140%;
+  }
+
+  span {
+    color: #000434;
+  }
+}
+
+.founderBg {
+  background-image: url("../../images/Rectangle\ 100.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95vh;
+  margin-top: -112px;
+  position: relative;
+  z-index: -1;
+}

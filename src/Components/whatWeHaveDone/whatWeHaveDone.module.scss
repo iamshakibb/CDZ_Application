@@ -1,0 +1,35 @@
+.primaryBg {
+  background-image: url("../../images/Rectangle\ 101.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.founderBg {
+  background-image: url("../../images/Rectangle\ 100.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95vh;
+  margin-top: -215px;
+  position: relative;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clientFeedContainer {
+  background-image: url("../../images/Rectangle\ 98.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  padding: 20px;
+}
+
+.clientFeedback {
+  margin: 165px 10px;
+}
