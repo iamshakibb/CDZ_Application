@@ -19,3 +19,25 @@
   justify-content: center;
   align-items: center;
 }
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .supportBg {
+    margin-top: -100px;
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .supportBg {
+    margin-top: -100px;
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .supportBg {
+    margin-top: -115px;
+    height: 110vh;
+  }
+}

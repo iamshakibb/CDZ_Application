@@ -1,19 +1,42 @@
 .support {
-  background: #ffffff;
-  box-shadow: 0px 7px 67px rgba(0, 0, 0, 0.15);
-  border-radius: 10px;
-  padding: 30px 40px;
-  height: 200px;
-  text-align: center;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 140%;
-  color: #000434;
-  position: relative;
-  top: 50%;
-  transform: translateY(-30%);
+  div {
+    background: #ffffff;
+    box-shadow: 0px 7px 67px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 30px 40px;
+    height: 200px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140%;
+    color: #000434;
+    position: relative;
+    top: 50%;
+    transform: translateY(-30%);
+  }
   h3 {
     color: #fb0043;
     margin-bottom: 10px;
+  }
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .support {
+    margin-bottom: 40px;
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .support {
+    margin-bottom: 40px;
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .support {
+    margin-bottom: 40px;
   }
 }

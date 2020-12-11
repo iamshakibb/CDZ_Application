@@ -1,9 +1,9 @@
-import { combineReducers } from "redux";
-import isModalOpenReducer from "./IsModalOpenReducer";
+import { combineReducers } from 'redux'
+import FormModalReducer from './FormModalReducer/FormModalReducer'
 
 // combine all the reducer
 const allReducer = combineReducers({
-  IsModalOpen: isModalOpenReducer,
-});
+  FormModal: FormModalReducer,
+})
 
-export default allReducer;
+export default allReducer

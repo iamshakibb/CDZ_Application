@@ -12,7 +12,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 95vh;
-  margin-top: -215px;
+  margin-top: -300px;
   position: relative;
   z-index: -1;
   display: flex;
@@ -28,8 +28,25 @@
   width: 100%;
   height: 60vh;
   padding: 20px;
+  margin-bottom: -10px;
 }
 
 .clientFeedback {
   margin: 165px 10px;
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .founderBg {
+    margin-top: -135px;
+    padding: 130px 10px;
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .founderBg {
+    margin-top: -135px;
+    padding: 130px 10px;
+  }
 }
